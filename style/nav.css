@@ -1,0 +1,33 @@
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 0;
+    min-height: 10vh;
+    width: 100%;
+}
+
+nav>section {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>section>h1 {
+    margin: 0;
+    font-size: 6vmin;
+    font-weight: bold;
+}
+
+nav>section>ul {
+    align-self: center;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    font-size: 3vmin;
+    font-weight: 500;
+}
+
+nav>section>ul>li {
+    margin-left: 4vw;
+}

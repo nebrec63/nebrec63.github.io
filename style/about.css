@@ -1,0 +1,48 @@
+#about {
+    padding-bottom: 6rem;
+}
+
+#about>section {
+    padding-top: 6rem;
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+}
+
+#about>section>figure {
+    margin: 0 auto;
+    margin-left: 10rem;
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+
+#about>section>figure>img {
+    max-width: 30rem;
+    height: auto;
+}
+
+#about>section>.content {
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 1em;
+}
+
+#about>section>.content>#intro {
+    margin: 4rem 0;
+    font-size: 2rem;
+}
+
+#about>section>.content>h3 {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+#about>section>.content>ul {
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    list-style-type: none;
+    padding: 0;
+}

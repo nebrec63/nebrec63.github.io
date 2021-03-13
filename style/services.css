@@ -1,0 +1,37 @@
+#services {
+    padding-bottom: 14rem;
+}
+
+#services>div>h2 {
+    margin: 0;
+    padding-top: 14rem;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+#services>.content {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#services>.content>section {
+    flex-grow: 1;
+}
+
+#services>div>section>h3 {
+    margin: 0;
+    padding-top: 4rem;
+    font-weight: 500;
+    font-size: 4rem;
+}
+
+#services>div>section>ul {
+    font-size: 2rem;
+    list-style-type: none;
+    padding: 0;
+}
+
+#services>div>section>ul>li::before {
+  content: '\2192';
+  padding-right: 1rem;
+}

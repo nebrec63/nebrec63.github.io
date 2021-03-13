@@ -1,0 +1,15 @@
+#contact {
+    padding: 8rem 0;
+}
+
+#contact>section>h3 {
+    margin: 0;
+    font-size: 4rem;
+    font-weight: normal;
+}
+
+#contact>section>address {
+    padding: 4rem 0;
+    font-size: 2rem;
+    font-style: normal;
+}
